@@ -5,11 +5,6 @@ function createHelloWorld() {
     };
 };
 
-/**
- * const f = createHelloWorld();
- * f(); // "Hello World"
- */
-
 /**TEST CASES */
 const f1 = createHelloWorld();
 console.log(f1());
