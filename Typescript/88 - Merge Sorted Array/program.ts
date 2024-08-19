@@ -4,7 +4,7 @@
  function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     nums1.length = m; // Set the length of nums1 to m to remove any trailing zeroes
     nums1.push(...nums2); // Add all elements from nums2 to nums1
-    nums1.sort(); // Sort the array in ascending order
+    nums1.sort((a, b) => a - b); // Sort the array in ascending order
  };
 
 /**TEST CASES */
